@@ -1,16 +1,16 @@
 let mongoose = require("mongoose");
-let db = require("../models");
+let db = require("../../models/");
 var seeder = require('mongoose-seed');
  
 // Connect to MongoDB via Mongoose
 seeder.connect('mongodb://localhost/workout', function() {
  
-  // Load Mongoose models
+  // Load Mongoose modelsnod
   seeder.loadModels([
-    '../models/workout.js'
+    '../../models/workout.js'
   ]);
  
-  // Clear specified collections
+  // Clear specified collectionsnod
   seeder.clearModels(['workout'], function() {
  
     // Callback to populate DB once collections have been cleared
