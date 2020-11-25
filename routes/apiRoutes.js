@@ -1,4 +1,4 @@
-const { db } = require("../models/workout.js");
+
 const Workout = require("../models/workout.js");
 const app = require("express").Router()
 
@@ -22,12 +22,13 @@ app.post("/api/workouts", (req, res) => {
 });
 
 //add excersise
-app.put("api/workouts/:id", ({body, params}, res) => {
+app.put("/api/workouts/:id", ({ body, params }, res) => {
     console.log(body)
+    console.log(params)
+
     Workout.findByIdAndUpdate(
         params.id,
         {$push:{exercises: body}},
-        {new: true, runValidators:ture}
     ).then(workout => res.json(workout)).catch(err =>{
         res.json(err);
     });
