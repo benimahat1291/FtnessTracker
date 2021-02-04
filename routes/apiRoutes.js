@@ -11,7 +11,6 @@ app.get("/api/workouts", (req, res) => {
     });
 });
 
-
 //create workouts
 app.post("/api/workouts", (req, res) => {
     Workout.create({}).then((workout => {

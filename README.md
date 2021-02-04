@@ -1,28 +1,47 @@
 # Workout Tracker
 
-App that lets your log your workout
+## Table of Contents
 
-## Purpose
+* [overview](#overview)
+* [Links](#links)
+* [Screenshots](#screenshots)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Technologies Used](#technologies)
+* [Questions](#questions)
 
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## overview
 
-## Technologies Implemented
-    * node.js
-    * express.js
-    * mongodb/Mongoose
+Create and continue your workouts in this fitness tracker for weights and cardio.
 
-## Deployment
+## Links
 
-App is live at https://calm-eyrie-36559.herokuapp.com/
-github: https://github.com/benimahat1291/HW13---Fitness-Tracker.git
+[See the Deployed Application](https://workout-tracker-36559.herokuapp.com/)
 
-To run the program on your local server make sure to npm install to acuire the package-lock.json and node modules
-To run the server run "nodemon server" to start the local server
+## Screenshots
 
-## Challanges
-Making the models wassnt too challenging but,We needed to set up our connection and seed files using mongo-seed. That took some time to figure out. Mongodb has different crud syntax so that took some time to learn. The api calls was the hardest part for me. To do the Api post route to do the update I had didn't know why my call was not working untill I did some destructuring. 
 
-## Developer
+![ Search:](public/sc1.png)
+![ Login/Signup:](public/sc2.png)
+![View all:](public/sc3.png)
+![View all:](public/sc4.png)
 
-Beni Mahat 11/20/2020
+
+
+## Installation Instructions
+
+run "npm i" in the command line
+
+## Usage
+
+On the landing page you are shown you last workout, you can choose to continue your last workout or start a new workout which will override the old workout information. You can add multiple workouts to your new workout including both cardio and weights. After you have added all your excersizes to your workout you can view information about your overall workout with graphs and visuals in the workout dashboard with is accessable though the navbar.
+
+## Technologies Used
+
+ API, HTML, CSS, React
+
+## Questions
+
+If you have further projects and questions, you can find me on Github: [GITHUB](https://github.com/benimahat1291). 
+please visit my portfolio to find contact information: [BENI MAHAT](https://benimahat1291.github.io/Portfolio_v2/#/). 
 
