@@ -38,8 +38,8 @@ On the landing page you are shown you last workout, you can choose to continue y
 
 ## Technologies Used
 
- API, HTML, CSS, React
-
+ API, HTML, CSS, MVC-structure
+ 
 ## Questions
 
 If you have further projects and questions, you can find me on Github: [GITHUB](https://github.com/benimahat1291). 
